@@ -1,6 +1,4 @@
-.parrafos{
-    display: flex;
-}
+
 
 
 .Lista{
@@ -8,11 +6,9 @@
     background: black;
     color: white;
     padding: 50px;
-    width: 150%;
-    max-width: 50px;
-    height: 838px;
+    max-width: 10px;
+    height: auto;
     float: left;
-    margin: auto;
     display: list-item;
     list-style: circle;
     position: relative;
@@ -24,11 +20,12 @@
     background-color: skyblue;
     color: white;
     padding: 50px;
-    width: 150%;
-    height: 160px;
+    width: 80%;
+    height: 180px;
     width: 85%;
     display: flex;
     border: #000000 px solid;
+    float: right;
     
     
 }
@@ -39,11 +36,12 @@
     background-color: yellow;
     color: white;
     padding: 50px;
-    width: 150%;
-    height: 160px;
+    width: 80%;
+    height: 180px;
     width: 85%;
     display: flex;
     margin-top: -50px;
+    float: right;
     
     
     
@@ -55,11 +53,12 @@
     background-color: orange;
     color: white;
     padding: 50px;
-    width: 150%;
-    height: 160px;
+    width: 80%;
+    height: 180px;
     width: 85%;
     display: flex;
     margin-top: -50px;
+    float: right;
     
     
     
@@ -70,11 +69,13 @@
     background-color: red;
     color: white;
     padding: 50px;
-    width: 150%;
-    height: 160px;
+    width: 80%;
+    max-width: 90%;
+    height: 180px;
     width: 85%;
     display: flex;
     margin-top: -50px;
+    float: right;
     
     
     
@@ -95,3 +96,6 @@ nav a{
 nav a:hover{
     color: gray;
 }
+
+
+
